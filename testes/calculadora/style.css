@@ -4,6 +4,7 @@
     
 }
 
+
 .calculator {
     width: 30vw;
     min-height: 45vh;
@@ -28,8 +29,18 @@
     margin-bottom: 2vw;
     transform: translate(1.35vw);
     border: 2.5px solid #520d0da6 ;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+#display > p {
+    background-color: #eec5c5c9;
+}
 .botão {
     font-weight: bold;
     font-size: 1.2em;
